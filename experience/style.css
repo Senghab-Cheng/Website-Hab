@@ -464,3 +464,17 @@ header .navbar ul li a:hover{
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+/* Style for the CS logo */
+.logo .cs {
+  font-family: 'Arial', sans-serif;
+  font-size: 50px; /* Adjust size as needed */
+  color: #333; /* Adjust color */
+  font-weight: bold; /* Make it bold */
+}
+
+/* Additional hover effect */
+.logo .cs:hover {
+  color: #555; /* Change color on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+  transition: all 0.3s ease;
+}

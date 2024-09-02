@@ -1223,3 +1223,37 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+/* Style for the CS logo */
+.logo .cs {
+  font-family: 'Arial', sans-serif;
+  font-size: 40px; /* Smaller size */
+  font-weight: bold;
+  background: linear-gradient(45deg, #ff6ec4, #7873f5); /* Gradient background */
+  background-size: 200% 200%; /* For animation effect */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 4s ease infinite; /* Animate gradient */
+  
+  /* 3D effect */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+
+  /* Add spacing and center */
+  display: inline-block;
+  letter-spacing: 4px;
+  text-align: center;
+  transition: transform 0.4s ease, text-shadow 0.4s ease;
+}
+
+/* Hover effect */
+.logo .cs:hover {
+  transform: scale(1.2) rotate(5deg); /* Zoom and slight rotation */
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+/* Gradient animation */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
