@@ -130,13 +130,13 @@
     }
   },
   {
-    "name": "Portfolio Website",
-    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "name": "Senghab Cheng Website",
+    "desc": "Personal Senghab Cheng Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
     "image": "portfolio1",
     "category": "basicweb",
     "links": {
       "view": "#",
-      "code": "https://github.com/jigar-sable/Portfolio-Website"
+      "code": "hhttps://github.com/Senghab-Cheng/Website-Hab.git"
     }
   },
   {
@@ -236,7 +236,7 @@
     "category": "basicweb",
     "links": {
       "view": "https://jigar-sable.github.io/JavaScript-Projects/projects/issuetracker",
-      "code": "https://github.com/jigar-sable/JavaScript-Projects/tree/main/projects/issuetracker"
+      "code": "https://github.com/-sable/JavaScript-Projects/tree/main/projects/issuetracker"
     }
   },
   {
